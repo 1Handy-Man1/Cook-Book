@@ -1,0 +1,22 @@
+@import "../themes/DefualtTheme";
+@import "../util/mixins";
+
+nav {
+    width: 100%;
+    margin-bottom: 4rem;
+    background-color: black;
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        overflow: hidden;
+        li {
+            font-size: 2vw;
+            text-decoration: none;
+            :hover{
+                color: black;
+                background-color: white;
+            }
+        }
+    }
+}
